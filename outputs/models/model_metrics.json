@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "train_rows": 226982,
+    "test_rows": 56744,
+    "fraud_ratio_train_percent": 0.1669735926196791,
+    "fraud_ratio_test_percent": 0.16565628084026504
+  },
+  "amount_iqr_rule": {
+    "accuracy": 0.8848688848160158,
+    "precision": 0.002626293835933879,
+    "recall": 0.18085106382978725,
+    "f1_score": 0.005177402162326785,
+    "confusion_matrix": [
+      [
+        50194,
+        6456
+      ],
+      [
+        77,
+        17
+      ]
+    ]
+  },
+  "mad_score_rule": {
+    "accuracy": 0.9942901452135908,
+    "precision": 0.09507042253521127,
+    "recall": 0.2872340425531915,
+    "f1_score": 0.14285714285714288,
+    "confusion_matrix": [
+      [
+        56393,
+        257
+      ],
+      [
+        67,
+        27
+      ]
+    ]
+  }
+}
