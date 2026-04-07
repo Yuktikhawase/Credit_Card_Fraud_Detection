@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## Run the Project
 
 ```powershell
-python -m src.main --data-path creditcard.csv --output-dir outputs
+python -m src.main --data-path data/creditcard.csv --output-dir outputs
 ```
 
 ## Run User Interface
@@ -86,4 +86,5 @@ The best model is selected by F1 score and reported in the generated report.
 ## Real-Time Extension Idea
 
 For production-grade banking systems, this batch pipeline can be extended with streaming ingestion (Kafka/Flink), real-time scoring API, thresholding rules, and alert/reversal workflows.
+"# Credit_Card_Fraud_Detection" 
 "# Credit_Card_Fraud_Detection" 
