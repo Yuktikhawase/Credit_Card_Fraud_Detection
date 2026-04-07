@@ -86,3 +86,4 @@ The best model is selected by F1 score and reported in the generated report.
 ## Real-Time Extension Idea
 
 For production-grade banking systems, this batch pipeline can be extended with streaming ingestion (Kafka/Flink), real-time scoring API, thresholding rules, and alert/reversal workflows.
+"# Credit_Card_Fraud_Detection" 
